@@ -20,7 +20,7 @@ android {
     }
 }
 allprojects {
-    buildDir = "C:/tmp/${rootProject.name}/${project.name}"
+    buildDir = "C:/tmp/SX1716071/IWeather"
     repositories {
         maven { url "https://jitpack.io" }
     }
