@@ -20,6 +20,7 @@ android {
     }
 }
 allprojects {
+    buildDir = "C:/tmp/${rootProject.name}/${project.name}"
     repositories {
         maven { url "https://jitpack.io" }
     }
